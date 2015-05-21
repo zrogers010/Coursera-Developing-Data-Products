@@ -1,0 +1,50 @@
+---
+title       : R Stock Charts
+subtitle    : Coursera - Developing Data Products
+author      : Z
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : standalone
+knit        : slidify::knit2slides
+---
+
+## Get Stock Price Data
+1. Enter a stock symbol.
+2. Select your start date (default is 3 months from today).
+3. Select you end date (default is today).
+
+![](chart_controls.png)
+---
+
+---
+## Set Chart Indicators
+1. Select an Indicator to add to the chart.
+2. Click the 'Get Chart' button to refresh the chart.
+
+![](chart_indicators.png)
+---
+
+---
+## View The Chart
+Check out this sweet stock chart!
+
+![](chart.png)
+---
+
+---
+## RStockCharts v0.1 (beta)
+
+Try it here: [rstockcharts](http://rstockcharts.shinyapps.io/Project/)
+
+# 
+
+![](chart2.png)
+
+```{r echo=FALSE}
+print("powered by ingenuity")
+```
+and [rstockcharts.com](http://rstockcharts.com)
+
